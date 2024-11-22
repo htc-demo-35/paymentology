@@ -16,6 +16,8 @@ containers:
       Hello: World
 
 resources:
+  cache:
+    type: redis
   db:
     type: postgres
   dns: # We need a DNS record to point to the service 
